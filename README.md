@@ -24,3 +24,7 @@ Right now I'm focused on making AI useful in production: agents that reason over
 ### Currently exploring
 
 AIOps: using LLM agents for incident triage, log analysis and root-cause summaries.
+
+### Connect
+
+[LinkedIn](https://www.linkedin.com/in/kritagya-suryavanshi) · [Live demo](https://finance-dashboard-topaz-seven.vercel.app)
