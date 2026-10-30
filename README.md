@@ -1,16 +1,26 @@
-## Hi there 👋
+## Hi, I'm Kritagya 👋
 
-<!--
-**kritagyasuryavanshi/kritagyasuryavanshi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**GenAI engineer.** I build LLM agents and RAG systems in Python and ship them behind real APIs, with auth, tests and deployment.
 
-Here are some ideas to get you started:
+Right now I'm focused on making AI useful in production: agents that reason over real data, retrieval that cites its sources, and the engineering around them (evaluation, guardrails, observability) that makes them safe to trust.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Featured project
+
+**AI-powered personal finance app** — one dataset, three LLM approaches compared side by side · [Live demo](https://finance-dashboard-topaz-seven.vercel.app)
+
+| | |
+|---|---|
+| [**finance-tracker-api**](https://github.com/kritagyasuryavanshi/finance-tracker-api) | FastAPI backend with JWT auth and PostgreSQL. AI layer: RAG over uploaded bank statements (LangChain + ChromaDB, hybrid semantic/keyword search), a **LangGraph** agent that scores financial health and branches its report, and a **CrewAI** crew of three role-based agents. Tested, Dockerised, CI on every push. |
+| [**finance-dashboard**](https://github.com/kritagyasuryavanshi/finance-dashboard) | Next.js 16 + TypeScript frontend: transactions, AI chat, agent analyses, and document Q&A. |
+
+### What I work with
+
+- **LLMs & agents:** LangChain, LangGraph, CrewAI, Gemini, prompt engineering
+- **Retrieval:** RAG, ChromaDB, embeddings, hybrid search
+- **Backend:** Python, FastAPI, Pydantic, SQLAlchemy, PostgreSQL, JWT auth
+- **Frontend:** TypeScript, React, Next.js, Tailwind
+- **Shipping:** Docker, GitHub Actions, pytest, Render
+
+### Currently exploring
+
+AIOps: using LLM agents for incident triage, log analysis and root-cause summaries.
